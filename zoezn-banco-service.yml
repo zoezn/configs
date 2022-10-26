@@ -6,7 +6,7 @@ spring:
       url: ${CONFIG_SERVER:http://localhost:8888}
 
 server:
-  port: ${PORT:9999}
+  port: ${PORT:8885}
 
 message: "Service for banco is alive!"
 
