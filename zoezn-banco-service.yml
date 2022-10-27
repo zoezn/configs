@@ -13,7 +13,7 @@ message: "Service for banco is alive!"
 
 max_efectivo: 2000.00
 denominaciones_billetes: 
-  -10$
-  -20$
-  -50$
-  -100$
+  -"10"
+  -"20"
+  -"50"
+  -"100"
