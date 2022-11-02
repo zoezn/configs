@@ -20,6 +20,10 @@ spring:
           uri: lb://ms-subscription
           predicates:
             - Path=/subscription/**
+        - id: mssubscriptiondivide
+          uri: lb://ms-subscription
+          predicates:
+            - Path=/subscription/divide
 
 info:
   app:
